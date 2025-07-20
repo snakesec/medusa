@@ -1,3 +1,5 @@
+autoreconf -f -i
+
 ./configure
 
 if [ $? -eq 0 ]
